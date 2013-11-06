@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>t3</title>
+        
+        <script src="jquery-2.0.2.js" type="text/javascript"></script>
+        <script src="logic.js" type="text/javascript"></script>
+        <script src="canvas.js" type="text/javascript"></script>
+    </head>
+    
+    
+    
+    
+    <script type="text/javascript">
+        //ttt_start();
+        var game; //initialize in global scope
+        $(document).ready(function(){
+            game = new TicTacToe("#game_board");
+        });
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <body>
+        <canvas id="game_board" width="300" height="300"></canvas>
+    </body>
+</html>
